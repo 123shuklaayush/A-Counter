@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header h1{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 600;
+    position: relative;
+    top: 90px;
+    line-height: 100px;
+}
+.main button{
+    padding: 5px;
+    margin-right: 25px;
+    border: 2px solid black;
+    background:none;
+    outline: none;
+    display: inline;
+    letter-spacing: 2px;
+    margin-top: 180px;
+    position: relative;
+    left: 39%;
+    top: 0%;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+}
+.heading{
+    font-size: 50px;
+}
+.counter{
+    color: rgb(5, 230, 5);
+    font-size: 80px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
